@@ -1,0 +1,58 @@
+---
+
+dotfiles_repo: https://github.com/curtisspendlove/dotfiles.git
+dotfiles_repo_accept_hostkey: true
+dotfiles_repo_local_destination: ~/src/dotfiles
+
+homebrew_installed_packages:
+  # - ansible # Installed via Pip.
+  - asdf
+  - autoconf
+  - bettertouchtool
+  - cowsay
+  - fish
+  - git
+  - github/gh/gh
+  - hazel
+  - netnewswire
+  - openssl
+  - readline
+  - ssh-copy-id
+  - wget
+  - zsh
+  # - ohmyzsh
+
+homebrew_taps:
+  - homebrew/core
+  - homebrew/cask
+
+homebrew_cask_appdir: /Applications
+homebrew_cask_apps:
+  - 1password
+  - alacritty
+  - bartender
+  - batteries
+  - bbedit
+  - chromedriver
+  - docker
+  - downie
+  - endurance
+  - firefox
+  - google-chrome
+  - istat-menus
+  - iterm2
+  - licecap
+  - marked
+  - moom
+  - screens
+  - slack
+  - taskpaper
+  - tower
+  - transmit
+  - tripmode
+  - vagrant
+  - visual-studio-code
+
+mas_installed_apps:
+- { id: 904280696, name: "Things 3" }
+- { id: 497799835, name: "Xcode" }
