@@ -20,6 +20,7 @@ homebrew_installed_packages:
   - ssh-copy-id
   - wget
   - zsh
+  - zsh-history-substring-search
   # - ohmyzsh
 
 homebrew_taps:
@@ -52,6 +53,7 @@ homebrew_cask_apps:
   - tripmode
   - vagrant
   - visual-studio-code
+  - zoom
 
 mas_installed_apps:
 - { id: 904280696, name: "Things 3" }
